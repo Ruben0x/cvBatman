@@ -1,0 +1,89 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+}
+
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color:#005677;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+
+}
+
+.italic{
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+aside{
+    display: block;
+}
+
+.fechas{
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.lista{
+    list-style-type: none;
+    display: inline-table;
+    margin-left: 0;
+    padding: 0;
+}
+
+.personales{
+    padding-left: 60px;
+}
+
+footer{
+    height: 37px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #005677;
+    color: #FFFFFF;
+    position: fixed;
+   width: 100%;
+    bottom: 0;
+}
+
+
+footer div{
+    padding-top: 7px;
+}
+
+.relleno{
+    height: 50px;
+}
+
+footer a{
+    color:white;
+}
+footer a:hover{
+    color: blue;
+}
